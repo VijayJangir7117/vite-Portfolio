@@ -1,7 +1,9 @@
 import React, { useRef } from 'react'
 import '../Contact/Contact.css'
-import FacebookIcon from '../../assets/facebook-icon.png'
-import TwitterIcon from '../../assets/twitter.png'
+import phone from '../../assets/phone.png'
+import email from '../../assets/email.jpg'
+
+import GitIcon from '../../assets/Github.png'
 import Instagram from '../../assets/instagram.png'
 import emailjs from '@emailjs/browser';
 
@@ -57,9 +59,24 @@ function Contact() {
           </button>
 
           <div className='links'>
-            <img src={FacebookIcon} alt='Facebook' className='link' />
-            <img src={TwitterIcon} alt='Twitter' className='link' />
-            <img src={Instagram} alt='Instagram' className='link' />
+            <div className="phonedata">
+              <span> <img src={phone} alt='Twitter' className='linkphone' />
+              </span>
+              <span  className='personal'  >9653786625</span>
+             </div>
+             <div className="phonedata">
+              <span> <img src={email} alt='Twitter' className='linkphone' />
+              </span>
+              <span className='personal'  >vijaykumarjangir.18@gmail.com</span>
+             </div>
+               <a href="https://github.com/VijayJangir7117"><img src={GitIcon} alt='Twitter' className='link' /></a>
+         
+               
+            
+            {/* <img src={FacebookIcon} alt='Facebook' className='link' /> */}
+            {/* <a href="https://github.com/VijayJangir7117"><img src={GitIcon} alt='Twitter' className='link' /></a> */}
+         
+            {/* <img src={Instagram} alt='Instagram' className='link' /> */}
           </div>
         </form>
       </div>

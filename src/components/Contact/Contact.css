@@ -47,7 +47,12 @@
 }
 .links{
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* flex-wrap: wrap; */
+  width: 40rem;
+  background: rgb(40, 40, 40);
+  border-radius: 1rem;
+  padding: 0.5rem;
 
 }
 .link{
@@ -55,4 +60,25 @@
   height: 3rem;
   width: 3rem;
   margin: 0 0.7rem;
+}
+.linkphone{
+  object-fit: cover;
+  height: 2.8rem;
+  width: 2.8rem;
+  margin: 0 0.7rem;
+  border-radius: 50%;
+}
+
+.phonedata{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.personal{
+  font-size: 1.2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.personal:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 4px 15px rgba(244, 242, 242, 0.2);
 }

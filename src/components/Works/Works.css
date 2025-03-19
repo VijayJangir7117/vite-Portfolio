@@ -10,13 +10,15 @@
   text-align: center;
   padding: 0 1rem;
  }
- .worksTitle{
-  margin: 1rem 0;
+ .workstitle{
+  margin: 2rem 0;
   font-size:3rem ;
  }
  .worksDesc{
+  margin: 1rem 0;
   font-weight: 300;
   font-size: 1rem;
+  max-width: 50rem;
 
  }
  .worksImgs{
@@ -31,10 +33,16 @@
 
  .worksImg{
   object-fit: cover;
-  height: 20rem;
+  height: 15rem;
   margin: 0.5rem;
+  border-radius: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 
  }
+ .worksImg:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
  .worksBtn{
   padding: 0.5rem 2.5rem ;
   border: none;

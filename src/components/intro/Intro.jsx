@@ -12,11 +12,11 @@ function Intro() {
          <div className='introContent' >
           <span className='hello'  >Hello,  </span>
           <span  className='introText'>
-             I am <span className='introName'>Vijay </span> 
+             I'm <span className='introName'>Vijay </span> 
              <br/>
              Website Designer
              </span>
-           <p className='introPara'>I am a skilled Web designer with experence in creating <br/> visually appealing and user friendly website  </p>
+           <p className='introPara'>A passionate web designer with a keen eye for creating <br/> visually appealing and user-friendly websites.  <br/> As a fresher, I’m eager to bring fresh, creative solutions <br/>to the web design world . </p>
            <Link >
            <button className='btn'   >
             <img src={btnImg}   alt=''  className='btnImg'  />

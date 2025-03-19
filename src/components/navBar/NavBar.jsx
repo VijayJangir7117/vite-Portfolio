@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './NavBar.css';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/vjlogoB.png';
 import {Link} from 'react-scroll'
 import contactImg from '../../assets/contact.png'
 import menu from '../../assets/menu.png'
@@ -36,16 +36,28 @@ function NavBar() {
      offset={-100}
      duration={500}
     className='desktopMenuListItem'>Portfolio</Link>
-    {/* <Link 
+
+
+    {/* <navLink 
      activeClass='active'
-     to='contactPage'
+     to='https://github.com/VijayJangir7117 '
      spy={true}
      smooth={true}
      offset={-100}
      duration={500}
-    className='desktopMenuListItem'>Clients</Link> */}
-    </div>
+    className='desktopMenuListItem'>Github</navLink> */}
+     
+     <a 
+        href="https://github.com/VijayJangir7117"
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="desktopMenuListItem"
+       > Github</a>
 
+
+
+    </div>
+  
 
 
     <button  className='desktopMenuBtn' onClick={()=>{

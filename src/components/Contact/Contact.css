@@ -82,3 +82,53 @@
   transform: scale(1.05); 
   box-shadow: 0 4px 15px rgba(244, 242, 242, 0.2);
 }
+
+
+
+
+@media screen and (max-width: 768px) {
+  .links {
+    width: 90%; /* Make the container width smaller on mobile */
+    flex-direction: column; /* Stack the items vertically */
+    align-items: center; /* Center the items horizontally */
+  }
+
+  .phonedata {
+    flex-direction: column; /* Stack phone data vertically */
+    align-items: center; /* Center the content */
+  }
+
+  .linkphone {
+    width: 1.5rem; /* Reduce icon size on smaller screens */
+    height: 1.5rem;
+  }
+
+  .personal {
+    font-size: 0.9rem; /* Smaller text on mobile */
+  }
+
+  .link {
+    width: 2.5rem; /* Adjust icon size */
+    height: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .links {
+    width: 100%; /* Make it take full width on very small screens */
+    padding: 1rem; /* Increase padding for better touch interaction */
+  }
+
+  .phonedata {
+    margin: 0.5rem 0; /* Add margin to separate items better */
+  }
+
+  .personal {
+    font-size: 0.8rem; /* Even smaller text on very small screens */
+  }
+
+  .link {
+    width: 2rem; /* Adjust icon size further */
+    height: 2rem;
+  }
+}
